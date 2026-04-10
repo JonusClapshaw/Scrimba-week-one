@@ -33,25 +33,34 @@ nav > span {
 }
 
 main {
-    padding: 60px 30px;
-}
-
-main > h1 {
-    margin: 0;
-    font-size: 2.4rem;
+    min-height: calc(100vh - 90px);
+    background-image:
+        linear-gradient(rgba(16, 20, 28, 0.45), rgba(16, 20, 28, 0.6)),
+        url('../images/Mount_Everest_Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .facts-list {
-    margin-top: 46px;
-    max-width: 400px;
+    margin: 32px 0 0;
+    width: 100%;
+    max-width: 430px;
+    text-align: left;
 }
 
 .facts-list > li {
     padding-block: 10px;
-    line-height: 19px;
+    line-height: 1.5;
 }
 
 .facts-list > li::marker {
     color: #61DAFB;
     font-size: 1.5rem;
 }
+
